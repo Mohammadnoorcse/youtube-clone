@@ -1,0 +1,59 @@
+.videocard{
+    width: 100%;
+    height: auto;
+    /* border: 1px sienna solid; */
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.thamb-img{
+    width: 100%;
+    height: 14rem;
+    /* border: 1px solid red; */
+}
+.thamb-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-text{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.subscription img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+}
+
+.video-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.video-text h4{
+    width: 18rem;
+    height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    /* border: 1px solid rebeccapurple; */
+}
+    
+.subName,.view span{
+    color: #606060;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+}
+.view{
+    display: flex;
+    gap: 0.2rem;
+    text-align: center;
+}

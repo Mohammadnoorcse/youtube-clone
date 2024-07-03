@@ -1,0 +1,24 @@
+.playvideo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.playvideo .video{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.video video{
+    width: 100%;
+    height: 45rem;
+    border-radius: 10px;
+}
+
+.video h2{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: #0f0f0f;
+    font-weight: bold;
+}
