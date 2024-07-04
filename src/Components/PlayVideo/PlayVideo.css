@@ -22,3 +22,271 @@
     color: #0f0f0f;
     font-weight: bold;
 }
+
+.subcribe-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.subcribe-content-1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.subcribe-content-1 a{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+}
+.subcribe-content-1 a img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+.sub-name{
+    display: flex;
+    flex-direction: column;
+}
+.sub-name h4{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: #0f0f0f;
+}
+.sub-name span{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: normal;
+    color: #606060;
+}
+.sub-button{
+    width: 5.3rem;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+    /* padding: 0rem 1rem; */
+    background-color: #0f0f0f;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+.subcribed-button{
+    width: 6.5rem;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 1rem;
+    color: #606060;
+}
+.subcribe-content-2{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.subcribe-1{
+    
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.4rem 1.2rem;
+  
+    font-size: 16px;
+    background-color: #F2F2F2;
+    border-radius: 1rem;
+
+}
+.like{
+    padding-right: 0.2rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    display: flex;
+    gap: 0.2rem;
+}
+
+.like i,.dislike i{
+    font-size: 18px;
+}
+.dislike{
+    cursor: pointer;
+}
+
+.subcribe-2{
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0.4rem 1.2rem;
+    background-color: #F2F2F2;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 16px;
+}
+.subcribe-2:hover{
+    background-color: #E5E5E5;
+}
+.subcribe-2 i,.subcribe-2 span{
+    font-size: 16px;
+}
+
+.small-description{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    
+  
+    
+}
+.large-description{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    
+  
+    
+}
+.descrip-span{
+    color: #131313;
+    font-size: 14px;
+    font-weight: bold;
+}
+.descrip-p{
+   font-size: 14px;
+   color: #606060;
+   letter-spacing: .5px;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.comment-title{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.title{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.title span{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+}
+.title-sort{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.title-sort span{
+    font-size: 16px;
+    
+}
+
+.comment-input{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+.comment-image img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+}
+.comment-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    
+}
+.input-box input{
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4) !important;
+    font-size: 14px;
+    transition: all  linear 1s;
+}
+.input-box input:focus{
+    border-bottom: 2px solid black !important;
+}
+
+.comment-button{
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+    align-items: center;
+    
+}
+.comment-button button{
+    border: none;
+    outline: none;
+    width: 4.2rem;
+    height: 2rem;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.cencel-button{
+    background-color: transparent;
+}
+.comment-button button:hover{
+    background-color: #606060;
+    color: white;
+}
+.all-comment{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
