@@ -119,7 +119,7 @@ const PlayVideo = ({value}) => {
          {/* all comment */}
          <div className="all-comment">
             {commentData.map((item)=>(
-                <Comment key={item.id}/>
+                <Comment key={item.id} item={item}/>
             ))}
          </div>
        </div>
