@@ -23,7 +23,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        
         views:12,
         time:1
 
@@ -36,7 +35,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -49,7 +47,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -62,7 +59,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -75,7 +71,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -88,7 +83,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -101,7 +95,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -114,7 +107,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -127,7 +119,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -140,7 +131,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        video:"https://www.youtube.com/watch?v=xlKj1FPDNsk&ab_channel=SonyAATH",
         views:12,
         time:1
 
@@ -153,7 +143,6 @@ export const data =[
         title:"Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024",
         category:"react",
         video:video,
-        
         views:12,
         time:1
 
