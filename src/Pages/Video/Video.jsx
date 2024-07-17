@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Video.css";
-import { useParams } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 import { data } from '../../Components/data.js';
 import PlayVideo from '../../Components/PlayVideo/PlayVideo.jsx';
+import SideobarVideo from '../../Components/SidebarVideo/SideobarVideo.jsx';
 const Video = () => {
   const {categoryId,videoId} = useParams();
-  console.log(videoId+1);
+  
+
   
   return (
     <div className='video-container'>
@@ -17,7 +19,11 @@ const Video = () => {
 
        </div>
         <div className="video-right">
-
+           {data.map((value)=>(
+            <SideobarVideo key={value.id} value={value}/>
+         
+          
+           ))}
         </div>
     </div>
   )

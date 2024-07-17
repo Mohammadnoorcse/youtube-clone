@@ -3,7 +3,7 @@
     height: auto;
     display: flex;
     gap: 0.5rem;
-    border: 1px saddlebrown solid;
+    
 }
 .comment-left img{
     width: 2.5rem;
@@ -28,8 +28,9 @@
     color: #606060;
 }
 .comment-right-2 p{
- font-size: 14px;
- line-height: 18px;
+ font-size: 16px;
+ line-height: 20px;
+ color: #606060;
 }
 .comment-right-3{
     display: flex;
